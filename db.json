@@ -1,9 +1,256 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "jobs": [
+    {
+      "id": 1,
+      "title": "Web Developer",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYT0Ztdf-2_DrFPdNhmFLtMTf5vlQoHQKIkA&s",
+      "skillLevel": "Intermediate",
+      "link": "https://www.seek.co.nz/career-advice/role/web-developer"
+    },
+    {
+      "id": 2,
+      "title": "Graphic Designer",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHSkDlgXGIW73MwRuaVVdP2Z2_2jEm9PnUvw&s",
+      "skillLevel": "Beginner",
+      "link": "https://x.com/UnwantedWitness/status/1735547308295471193?mx=2"
+    },
+    {
+      "id": 3,
+      "title": "Aviation",
+      "image": "https://careers.turkishairlines.com/CMSFiles/PhotoGallery/BigImage/637901968987271320.jpg",
+      "skillLevel": "Advanced",
+      "link": "https://careers.turkishairlines.com/en-US/cabin-crew"
+    },
+    {
+      "id": 4,
+      "title": "Banking Professional",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrBUfHPmPCg_fWhOCeEOi7OxZuSwhqBcomVA&s",
+      "skillLevel": "Advanced",
+      "link": "https://www.unitednationshub.co.ke/tag/banking-jobs/"
+    },
+    {
+      "id": 5,
+      "title": "Carpenter",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXakR86KH68lxXdE1LK-3dlYmtfpVErVtfOg&s",
+      "skillLevel": "Intermediate",
+      "link": "https://mccoymart.com/post/the-top-10-benefits-of-hiring-a-professional-carpenter/"
+    },
+    {
+      "id": 6,
+      "title": "Financial Trader",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXAdHuZBcnxyNIcSlvTqQP5AcMPhp4i1dW45MWBZD_M0VQzoFd0kViQTwrOx6UWScDSTU&usqp=CAU",
+      "skillLevel": "Advanced",
+      "link": "https://pro.thestreet.com/trade-ideas/traders-pick-your-weapons-15938658"
+    },
+    {
+      "id": 7,
+      "title": "Teaching",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8lzTCv5GwOztnf6X-gKDxbbaOgZR-CbK-ow&s",
+      "skillLevel": "Advanced",
+      "link": "https://money.usnews.com/careers/best-jobs/high-school-teacher"
+    },
+    {
+      "id": 8,
+      "title": "YouTube Professional",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4J7jNDarJuUbj0o1wN5pW1qjv8ORJCF-Jpg&s",
+      "skillLevel": "Beginner",
+      "link": "https://tuberanker.com/blog/youtube-as-a-job"
+    },
+    {
+      "id": 9,
+      "title": "Astrology",
+      "image": "https://bcdn.mpanchang.com/images/remedy/career_astrology_your_guide_for_career.jpg",
+      "skillLevel": "Advanced",
+      "link": "https://www.mpanchang.com/articles/career/best-professions-for-every-zodiac-sign-career-astrology/"
+    },
+    {
+      "id": 10,
+      "title": "Mechanical Engineering",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWOledbCiMSdv_Bm4jBqB7fwwblXfx0q0j9Q&s",
+      "skillLevel": "Advanced",
+      "link": "https://www.military.com/veteran-jobs/search/high-paying-engineer-jobs.html"
+    },
+    {
+      "id": 11,
+      "title": "Driving Professional",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5f88YsGtVnhABsPHQgQVJC1kFD7OcFBkjUA&s",
+      "skillLevel": "Intermediate",
+      "link": "https://degreeola.com/driver-jobs-in-germany-with-visa-sponsorship/"
+    },
+    {
+      "id": 12,
+      "title": "Science Profession",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgPKGxn6GGzKiZHz4hEAVAukPIv_B3MrVjVA&s",
+      "skillLevel": "Advanced",
+      "link": "https://www.getreskilled.com/pharmaceutical-salary/science/"
+    },
+    {
+      "id": 13,
+      "title": "Army",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkhkTEGCLGuqcLUx1zDhT00eI5D-7cWa2zPg&s",
+      "skillLevel": "Intermediate",
+      "link": "https://www.goarmy.com/careers-and-jobs/browse-jobs"
+    },
+    {
+      "id": 14,
+      "title": "Gaming",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnQpRJjzSFY-B9rBHlDjhL_qu2O1s23tDWfg&s",
+      "skillLevel": "Beginner",
+      "link": "https://elevenrecruiting.com/it-in-the-gaming-industry/"
+    },
+    {
+      "id": 15,
+      "title": "Medicine",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPtBYzAwVwiaB-6QmLY3mLc72yCLXWJgcbOj-Pcv6U_SrRKG_OuRG1LXn4QR6Z32nsulc&usqp=CAU",
+      "skillLevel": "Advanced",
+      "link": "https://hospitalcareers.com/blog/20-tips-for-starting-your-medical-career/"
+    },
+    {
+      "id": 16,
+      "title": "Law Profession",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBY7Riiq-PSFRuhemimeonpSjl_e0gZJ2AcA&s",
+      "skillLevel": "Advanced",
+      "link": "https://au.gradconnection.com/career-advice/industry-guide/law/"
+    },
+    {
+      "id": 17,
+      "title": "Acting Profession",
+      "image": "https://www.kenyamoja.com/sites/default/files/styles/width_500px/public/events/posters/313288867_199825075766101_605424151766798082_n.jpg?itok=JduxrYWF",
+      "skillLevel": "Intermediate",
+      "link": "https://www.kenyamoja.com/events/auditions-artspace-productions-248008?page=1"
+    },
+    {
+      "id": 18,
+      "title": "Football Profession",
+      "image": "https://i.ytimg.com/vi/cUVOY1le0zY/maxresdefault.jpg",
+      "skillLevel": "Advanced",
+      "link": "https://www.youtube.com/watch?v=cUVOY1le0zY"
+    },
+    {
+      "id": 19,
+      "title": "Cybersecurity",
+      "image": "https://www.cybersecurityjobs.com/wp-content/uploads/2018/02/cyber-security-for-beginners.jpg",
+      "skillLevel": "Intermediate",
+      "link": "https://www.cybersecurityjobs.com/cyber-security-jobs-for-beginners/"
+    },
+    {
+      "id": 20,
+      "title": "Civil Engineering",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkIdK56m0C3L848BQEWlJav4LMJTsK_5XTBA&s",
+      "skillLevel": "Advanced",
+      "link": "https://medium.com/@oliveattaouia/civil-engineering-jobs-building-a-career-with-purpose-143c08518cfa"
+    },
+    {
+      "id": 21,
+      "title": "Photography",
+      "image": "https://vip-go.shutterstock.com/blog/wp-content/uploads/sites/5/2021/03/Woman-Photographing-Landscape-in-Nature-1024x683.jpg",
+      "skillLevel": "Intermediate",
+      "link": "https://www.shutterstock.com/blog/photography"
+    },
+    {
+      "id": 22,
+      "title": "Music Profesional",
+      "image": "https://audiocaptain.com/wp-content/uploads/2021/06/Best-Day-Jobs-For-Musicians-1.jpg",
+      "skillLevel": "Advanced",
+      "link": "https://audiocaptain.com/best-day-jobs-for-musicians/"
+    },
+    {
+      "id": 23,
+      "title": "Profesional Artist",
+      "image": "https://tiiny.host/blog/assets/images/concept-artist-portfolio-hero-1.png",
+      "skillLevel": "Intermediate",
+      "link": "https://tiiny.host/blog/assets/images/concept-artist-portfolio-hero-1.png"
+    },
+    {
+      "id": 24,
+      "title": "Traffic Police Officer",
+      "image": "https://nnmedia.nation.africa/uploads/2020/02/Traffic-Police-1-1320x741.jpg",
+      "skillLevel": "Advanced",
+      "link": "https://paksmartjob.com/traffic-police-jobs/"
+    },
+    {
+      "id": 25,
+      "title": "Barber Profesion",
+      "image": "https://www.velents.com/wp-content/uploads/2023/07/633f2bb7bc326e7159198c13_Barber-job-description.jpeg",
+      "skillLevel": "Intermediate",
+      "link": "https://www.velents.com/job-descriptions/barber/"
+    },
+    {
+      "id": 26,
+      "title": "Project Management",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaz9yx49bwBDYQ0TuoGDy-QMacoiW6JOs7dFLX7zgPsc7H_UzugIy89j4axiB71jCCou0&usqp=CAU",
+      "skillLevel": "Advanced",
+      "link": "https://meximcaribbean.com/project-manager-jobs-vacancy-aruba/"
+    },
+    {
+      "id": 27,
+      "title": "Educational Administrator",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_LDoVXcwGZux7NKAFXmOsV5Tr2h1No9wvzQ&s",
+      "skillLevel": "Advanced",
+      "link": "https://www.fastonlinemasters.com/lists/5-career-opportunities-with-a-masters-in-educational-administration/"
+    },
+    {
+      "id": 28,
+      "title": "Business consultant",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKm7fkNmB4dH5_bIrV651w40CKtcWI3ECTGw&s",
+      "skillLevel": "Advanced",
+      "link": "https://ke.expertini.com/jobs/job/consultant-insurance-services-nairobi-alliance-bioversity--1191100001/"
+    },
+    {
+      "id": 29,
+      "title": "Welding",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-Pem0gSKxa9A4QRUvTJL-xFspxQKd3Ci2_g&s",
+      "skillLevel": "Intermediate",
+      "link": "https://www.facebook.com/magsaysayglobalservices/posts/welder-jobs-in-europe-apply-nowshare-your-updated-resume-to-reginaibunamagsaysay/4174022882710053"
+    },
+    {
+      "id": 30,
+      "title": "Chemical Engineering",
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-6d91b649748429258392f305e894b660-lq",
+      "skillLevel": "Advanced",
+      "link": "https://www.quora.com/What-are-the-best-possible-jobs-for-a-chemical-engineer-in-the-USA-and-how-to-people-get-into-these-jobs"
+    }, 
+    {
+      "id": 31,
+      "title": "UX/UI Designing",
+      "image": "https://iofit.ca/wp-content/uploads/2024/02/UX-UI-Poster-2-870x440.png",
+      "skillLevel": "Advanced",
+      "link": "https://www.limelitech.co.ke/jobs_in_kenya_detail.php?Id=45"
+    },
+    {
+      "id": 32,
+      "title": "HVAC Technicals",
+      "image": "https://skillpointe.com/sites/default/files/2021-02/HVAC_Technician.jpg",
+      "skillLevel": "Advanced",
+      "link": "https://www.ledpower.co.ke/careers/job-available-we-are-hiring-3-hvac-technicians-with-5-years-experience/"
+    },
+    {
+      "id": 33,
+      "title": "Video Production",
+      "image": "https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/45704/article_full%403x.jpg",
+      "skillLevel": "Advanced",
+      "link": "https://www.facebook.com/groups/videoeditorindia/posts/-viragram-media-is-hiring-for-a-full-time-video-editorexpertise-with-adobe-premi/1285290468311398/?_rdr"
+    },
+    {
+      "id": 34,
+      "title": "Financial Analyst",
+      "image": "https://www.edgeip.com/images/FCK/Image/202204/SFG-FinancialAnalyst.jpg",
+      "skillLevel": "Advanced",
+      "link": "https://www.facebook.com/myjpsonline/posts/were-hiringrole-financial-analyst-bachelors-degree-in-finance-economics-business/4327311973974922/"
+    },
+    {
+      "id": 35,
+      "title": "School counselling",
+      "image": "https://www.thechicagoschool.edu/insightadmin/2020/08/tcspp-5-jobs-phd-counselor-education-770x421.jpg",
+      "skillLevel": "Intermediate",
+      "link": "https://www.thechicagoschool.edu/insight/career-development/5-jobs-you-can-do-with-a-ph-d-in-counselor-education/"
+    },
+    {
+      "id": 35,
+    "title": "Physician",
+    "image": "https://marvel-b1-cdn.bc0a.com/f00000000234031/www.pacificu.edu/sites/default/files/PA_Studies_Hero.jpg",
+    "skillLevel": "Advanced",
+    "link":"https://www.pacificu.edu/admissions/blog/what-is-a-physician-assistant"
+  }  
+  ]
 }
